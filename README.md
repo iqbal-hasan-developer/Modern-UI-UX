@@ -70,7 +70,7 @@ Building and styling a complete landing page from scratch
 
 📸 Preview
 
-(./src/assets/screenshot.jpg)
+![BusinessApp Screenshot](./src/assets/screenshot.jpg)
 
 💬 Feedback
 
