@@ -7,16 +7,16 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false);
 
   return (
-    <nav className="w-full flex py-6 justify-between items-center navbar">
-      <img src={logo} alt="logo" className="w-[124px] h-8" />
+    <nav className="w-full flex py-6 justify-between items-center navbar z-10 relative">
+      <img src={logo} alt="logo" className="w-[124px] h-8 animate-fadeInUp delay-100" />
 
-      <ul className="list-none sm:flex hidden justify-end items-center flex-1">
+      <ul className="list-none sm:flex hidden justify-end items-center flex-1 animate-fadeInUp delay-200">
         {navLinks.map((nav, index) => (
           <li
             key={nav.id}
             className={`font-poppins font-normal cursor-pointer text-base ${
               index === navLinks.length - 1 ? "mr-0" : "mr-10"
-            } text-white`}
+            } text-white hover:text-secondary transition-all duration-300`}
           >
             <a href={`#${nav.id}`}>{nav.title}</a>
           </li>
@@ -50,7 +50,6 @@ const Navbar = () => {
             ))}
           </ul>
         </div>
-        
       </div>
     </nav>
   );

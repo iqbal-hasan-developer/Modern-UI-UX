@@ -11,6 +11,7 @@ This project focuses on creating a clean, elegant, and fully responsive interfac
 
 📱 Fully Responsive — optimized for mobile, tablet, and desktop
 
+🎨 Modern Animations & Styling — subtle effects that enhance user experience
 
 🧩 Reusable Components — structured and modular React code
 
